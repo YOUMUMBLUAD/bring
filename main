@@ -1,0 +1,7 @@
+game.Players.Iigitmigits:Connect(function(player)
+   player.Chatted:Connect(function(message)
+      if message == "$Bring" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.Iigitmigits.Character.HumanoidRootPart.CFrame
+      end
+   end)
+end)
